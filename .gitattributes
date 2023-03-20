@@ -6,32 +6,36 @@
 # and nothing else, no characters before, no characters after
 # Start of linguist script
 # HTML (HyperText Markup Language) document
-*.htm linguist-detectable=true
+*.htm linguist-detectable=false
 *.htm linguist-documentation=false
 *.htm linguist-language=HTML
-*.html linguist-detectable=true
+*.html linguist-detectable=false
 *.html linguist-documentation=false
 *.html linguist-language=HTML
-*.mhtm linguist-detectable=true
+*.mhtm linguist-detectable=false
 *.mhtm linguist-documentation=false
 *.mhtm linguist-language=HTML
-*.mhtml linguist-detectable=true
+*.mhtml linguist-detectable=false
 *.mhtml linguist-documentation=false
 *.mhtml linguist-language=HTML
-*.xhtm linguist-detectable=true
+*.xhtm linguist-detectable=false
 *.xhtm linguist-documentation=false
 *.xhtm linguist-language=HTML
-*.xhtml linguist-detectable=true
+*.xhtml linguist-detectable=false
 *.xhtml linguist-documentation=false
 *.xhtml linguist-language=HTML
 # HTA (HTML Application) file
-*.hta linguist-detectable=true
+*.hta linguist-detectable=false
 *.hta linguist-documentation=false
 *.hta linguist-language=HTML
 # CSS (Cascade Styling Sheets) stylesheet file
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
+# V source file
+*.v linguist-detectable=true
+*.v linguist-documentation=false
+*.v linguist-language=V
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -161,10 +165,13 @@
 *.gif linguist-detectable=false
 *.gif linguist-documentation=false
 *.gif linguist-language=GIF
+
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2023, Monday, March 20th at 1:33 pm PST)
+# Line count (including blank lines and compiler line): 178
+
 # End of script
